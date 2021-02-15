@@ -1,0 +1,95 @@
+
+body p {
+    font-size: 20px;
+}
+
+.class1 {
+    font-size: 45px;
+    font-style: italic;
+}
+
+sub {
+    color:royalblue
+}
+
+sup {
+    color: red;
+}
+
+
+
+.class2 {
+    background-color: rgb(51, 50, 50);
+    width: 250px;
+    height: 40px;
+    margin: 10px 15px;
+    padding: 15px 15px 0;
+}
+
+span + span {
+    color: grey;
+    padding: 0 5px
+}
+
+
+
+.cubes {
+    background-color: white;
+    width: 80px;
+    height: 460px;
+    padding: 0px 10px;
+    position: absolute;
+}
+
+.black {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.blue {
+    background-color: rgb(4, 222, 230);
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+
+
+.class3 {
+    background-color: rgba(3, 168, 3, 0.781);
+    width: 450px;
+    padding: 10px;
+}
+
+h1, h1 + p {
+    color: white
+}
+
+
+
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 + p {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+
+.author {
+    background-color: white; 
+    width: 500px; 
+    padding: 10px;
+}
