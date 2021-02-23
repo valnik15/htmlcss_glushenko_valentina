@@ -1,0 +1,31 @@
+
+h1 {
+    background-color: rgb(147, 247, 134);
+    font-size: 40px;
+    padding-left: 15px
+}
+
+.form-text {
+    font-size: 30px;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+.general {
+    display: flex;
+    width: 1200px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.class1 {
+    width: 600px;
+}
+
+.footer {
+    background-color: rgb(241, 238, 238);
+    height: 40px;
+}

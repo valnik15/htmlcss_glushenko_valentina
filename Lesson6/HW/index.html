@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Contact Manager</h1>
+    <form="info">
+        <div class="general">
+            <div class="class1">
+            <br>
+            
+            <span class="form-text required">First Name</span>
+            <input class="form-text_input" type="text" name="first name" size="50" value="" placeholder="Ivan" />
+            <br>
+
+            <br>
+            <span class="form-text required">Last Name</span>    
+            <input type="text" name="last name" size="50" value="" placeholder="Ivanov" /> 
+            <br>
+
+            <br>
+            <br>
+            <span class="form-text">Address</span>
+            <textarea class="form-text_textarea" cols="40" rows="10" name="textarea" style="resize: none;" placeholder="Enter smth in textarea"></textarea>
+            <br>
+            <br>
+            <span class="form-text">City</span>
+            <select class="form-text_select"name="select">
+                <option value="film001">Kiev</option>
+                <option value="film002">Poltava</option>
+                <option value="film003">Odessa</option>
+                <option value="film004" selected>Kharkov</option>
+                <option value="film005">Lviv</option>
+                <option value="film006">Dnepropatrovsk</option>
+            </select>
+            <br>
+            <br>
+            <span class="form-text">Zip</span>    
+            <input class="form-text_input" type="text" name="Zip" size="50" value="" placeholder="" /> 
+            <br>
+
+            <br>
+            <span class="form-text">Home Phone</span>    
+            <input class="form-text_input" type="text" name="number" size="30" value="" placeholder="" /> 
+            <br>
+            
+            <br>
+            <span class="form-text required">Work Phone</span>    
+            <input class="form-text_input" type="text" name="number" size="50" value="" placeholder="" /> 
+            <br>
+
+            <br>
+            <span class="form-text">Fax Number</span>    
+            <input class="form-text_input" type="text" name="number" size="30" value="" placeholder="" /> 
+            <br>
+
+            <br>
+            <span class="form-text">Web Site</span> 
+            <fieldset class="form-text_fieldset": 300px>
+                <span>URL</span>
+                <input type="text" name="URL" />
+                <br>
+                <br>
+                <span>Link Name</span>
+                <input type="text" name="Link Name" />              
+            </fieldset>
+            </div>
+            <div class="class2">
+                <br>
+                <span class="text">When is the best time to contact you?</span>
+                <br>
+                <input type="radio" name="time" value="Morning" checked/>Morning
+                <br />
+                <input type="radio" name="time" value="Afternoon" />Afternoon
+                <br />
+                <input type="radio" name="time" value="Everning" />Everning
+                <br />
+
+                <br>
+                <span class="form-text">What is the best way to contact you?</span>
+                <br>
+                <input type="radio" name="way" value="Phone" checked/>Phone
+                <br />
+                <input type="radio" name="way" value="Email" />Email
+                <br />
+                <input type="radio" name="way" value="Fax" />Fax
+                <br />
+            </div>
+        </div>
+            <br>
+            <br>
+            <div class="footer">
+            <input type="submit" name="submit" value="Submit" /><input type="reset" name="reset" value="Reset" /></p> 
+            </div>
+    </form>
+</body>
+</html>
